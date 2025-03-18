@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LocalTune</string>
+    <string name="title">Titre de la chanson</string>
+    <string name="artiste">Artiste</string>
+    <string name="todo">TODO</string>
+    <string name="show_music_list">Show music list</string>
+    <string name="remove_song">Remove Song</string>
+    <string name="add_song">Add Song</string>
+</resources>
