@@ -12,7 +12,7 @@ import java.io.File
 
 class AudioAdapter(
     private val context: Context,
-    private val audioFiles: MutableList<String>
+    private val audioFiles: List<File>
 ) : BaseAdapter() {
 
     override fun getCount(): Int = audioFiles.size

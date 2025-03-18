@@ -11,16 +11,14 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        // Affiche le splash screen pendant 3 secondes (ajuste le délai si nécessaire)
-        Handler().postDelayed({ // Ouvre MainActivity après le délai
+        Handler().postDelayed({
             val intent = Intent(
                 this@SplashActivity,
                 MainActivity::class.java
             )
             startActivity(intent)
 
-            // Ferme SplashActivity pour ne pas revenir dessus
             finish()
-        }, 2000) // 3000 millisecondes = 3 secondes
+        }, 2000)
     }
 }

@@ -12,9 +12,6 @@
             android:exported="false"
             android:foregroundServiceType="mediaPlayback"/>
 
-        <service
-            android:name="com.app.localtune.AudioPlayerService"
-            android:exported="false" />
 
         <activity
             android:name=".SplashActivity"
@@ -25,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.localtune.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MusicPlayerActivity" />
+
 
     </application>
 

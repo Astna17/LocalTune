@@ -13,7 +13,7 @@
         android:contentDescription="@string/todo"
         android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp" /> <!-- Centré horizontalement avec un espace en haut -->
+        android:layout_marginTop="32dp" />
 
 
 </RelativeLayout>

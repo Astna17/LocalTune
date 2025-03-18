@@ -65,7 +65,7 @@ class MusicService : Service() {
         notificationManager.createNotificationChannel(channel)
 
         val pauseIntent = PendingIntent.getService(this, 0, Intent(this, MusicService::class.java).setAction("PAUSE"), PendingIntent.FLAG_IMMUTABLE)
-        val stopIntent = PendingIntent.getService(this, 0, Intent(this, MusicService::class.java).setAction("STOP"), PendingIntent.FLAG_IMMUTABLE)
+       // val stopIntent = PendingIntent.getService(this, 0, Intent(this, MusicService::class.java).setAction("STOP"), PendingIntent.FLAG_IMMUTABLE)
         val playIntent = PendingIntent.getService(this, 0, Intent(this, MusicService::class.java).setAction("PLAY"), PendingIntent.FLAG_IMMUTABLE)
 
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)

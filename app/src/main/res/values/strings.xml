@@ -6,4 +6,5 @@
     <string name="show_music_list">Show music list</string>
     <string name="remove_song">Remove Song</string>
     <string name="add_song">Add Song</string>
+    <string name="song_title">Song Title</string>
 </resources>
